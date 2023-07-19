@@ -4,24 +4,25 @@ const Header = () => {
   const navItems = (
     <>
       <li>
-        <a>Item 1</a>
+        <a>Home</a>
       </li>
-      <li tabIndex={0}>
-        <details>
-          <summary>Parent</summary>
-          <ul className="p-2">
-            <li>
-              <a>Submenu 1</a>
-            </li>
-            <li>
-              <a>Submenu 2</a>
-            </li>
-          </ul>
-        </details>
-      </li>
+     
       <li>
-        <a>Item 3</a>
+        <a>Contact US</a>
       </li>
+     
+      <li>
+        <a>DashBoard</a>
+      </li>
+  
+      <li>
+        <a>Our Menu</a>
+      </li>
+  
+      <li>
+        <a>Our Shop</a>
+      </li>
+
     </>
   );
   return (

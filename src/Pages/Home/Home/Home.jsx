@@ -1,12 +1,16 @@
 import Category from "../Category/Category";
+import ChefService from "../ChefService/ChefService";
 import HomeBanner from "../HomeBanner/HomeBanner";
+import PopularMenu from "../PopularMenu/PopularMenu";
 
 
 const Home = () => {
   return (
     <div>
       <HomeBanner />
-      <Category/>
+      <Category />
+      <ChefService />
+      <PopularMenu/>
     </div>
   );
 };

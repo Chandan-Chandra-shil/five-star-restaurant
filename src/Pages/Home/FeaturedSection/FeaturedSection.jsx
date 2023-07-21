@@ -2,6 +2,7 @@ import React from 'react';
 import SectionTitle from '../../../Component/SectionTitle';
 import featured from "../../../assets/home/featured.jpg"
 import './FeaturedSection.css'
+
 const FeaturedSection = () => {
   return (
     <div className="Featured-image bg-fixed pt-4 px-4 text-white">
@@ -24,7 +25,9 @@ const FeaturedSection = () => {
             rerum doloremque tempora assumenda, ea voluptate perferendis modi
             libero ipsa? Quam officia pariatur modi quos!
           </p>
-          <button className="btn btn-outline text-white border-0 border-b-4">Order Now</button>
+          <button className="btn btn-outline  text-white border-0 border-b-4">
+           Read More
+          </button>
         </div>
       </div>
     </div>

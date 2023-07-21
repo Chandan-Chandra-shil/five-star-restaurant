@@ -1,8 +1,10 @@
+import CallUs from "../CallUs/CallUs";
 import Category from "../Category/Category";
 import ChefService from "../ChefService/ChefService";
 import FeaturedSection from "../FeaturedSection/FeaturedSection";
 import HomeBanner from "../HomeBanner/HomeBanner";
 import PopularMenu from "../PopularMenu/PopularMenu";
+import Testimonials from "../Testimonials/Testimonials";
 
 
 const Home = () => {
@@ -12,7 +14,9 @@ const Home = () => {
       <Category />
       <ChefService />
       <PopularMenu />
-      <FeaturedSection/>
+      <CallUs/>
+      <FeaturedSection />
+      <Testimonials/>
     </div>
   );
 };
